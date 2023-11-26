@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Pc Global</title>
+        <link rel="icon" href="Foto tienda.png">
+        <style>
+           body {
+                margin: 0;
+                padding: 0;
+                font-family: Arial, sans-serif;
+            }
+
+            header {
+                position: relative;
+                background-image: url('FotoTienda.jpg');
+                background-size: cover;
+                background-position: center;
+                height: 400px;
+                text-align: center;
+            }
+            
+            h1 {
+                color: black;
+                padding-top: 160px;
+                margin: 0;
+            }
+
+            nav {
+                background-color: black;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                padding: 10px 0;
+            }
+
+            nav ul li {
+                display: inline;
+                margin: 0 20px;
+            }
+
+            nav ul li a {
+                text-decoration: none;
+                color: white;
+                font-weight: 900;
+            }
+
+            h2 {
+                margin-bottom: 20px;
+                padding: 10px;
+                border: 2px solid black;
+                width: 30%;
+                background-color: #515151;
+                margin-top: 50px;
+            }
+
+            aside {
+                float: right;
+                border: 2px solid black;
+                background-color: #515151;
+                
+            }
+
+            aside ol li a {
+                text-decoration: none;
+                color: black;
+            }
+
+            .actual a {
+                font-weight: bold;
+                color: blue;
+            }
+
+            footer {
+                background-color: #515151;
+                margin-top: 300px;
+                color: black;
+                padding: 10px 0;
+                bottom: 0;
+            }
+            
+            .asus {
+                width: 400px;
+                height: 150px;
+                margin-bottom: 50px;
+            }
+
+            .corsair {
+                width: 400px;
+                height: 150px;
+                margin-bottom: 50px;
+            }
+
+            .contenedor {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .samsung {
+                width: 400px;
+                height: 150px;
+                margin-bottom: 50px;
+            }
+
+            .intel {
+                width: 400px;
+                height: 150px;
+                margin-bottom: 50px;
+                
+            }
+        </style>
+    </head>
+    
+    <body>
+        <header>
+            <h1><u>Pc Global</u><br>Componentes y Equipos Informáticos</h1>
+            <nav>
+                <ul>
+                    <li class="actual"><a href="Index.html">Home</a></li>
+                    <li><a href="gallery.html">Galería</a></li>
+                    <li><a href="ubi.html">Ubicación</a></li>
+                    <li><a href="contact.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <aside>
+                <h3>Todos los articulos</h3>
+                <ol>
+                    <li><a href="#articulo1">Quienes somos</a></li>
+                    <li><a href="#articulo2">Ventajas que ofrecemos</a></li>
+                    <li><a href="#articulo3">Cuales son nuestros servicios</a></li>
+                    <li><a href="#articulo4">Marcas con las que trabajamos</a></li>
+                </ol>
+            </aside>
+
+            <article id="articulo1">
+                <h2 class="h2_1">Quienes somos</h2>
+                <p>PC Global, la tienda experta en informática y tecnología de confianza</p>
+                <p>Si eres un apasionado del mundo de la tecnología y de las novedades, te animamos a que localices tu tienda PC Global más cercana o que eches un vistazo a nuestra página web para descubrir todos los productos y servicios que tenemos a tu disposición.<br>
+                    A lo largo del tiempo, nos hemos posicionado como una de las marcas de referencia en el mundo de la informática, la tecnología y la electrónica. Actualmente disponemos de varios puntos de venta físicos, y tenemos una tienda online recién creada para ofrecer la mejor experiencia a nuestros usuarios.</p>
+            </article>
+
+            <article id="articulo2">
+                <h2>Ventajas que ofrecemos</h2>
+                <ul>
+                    <li>Nuestros trabajadores son expertos</li>
+                    <li>Podeis probar vuestra compra en nuestras tiendas</li>
+                    <li>Nuestro catalogo de productos esta siempre actualizado</li>
+                    <li>Os mantenemos informados en todo momento de las novedades</li>
+                </ul>
+            </article>
+
+            <article id="articulo3">
+                <h2>Cuales son nuestros servicios</h2>
+                <p>En Pc Global disponemos de un monton de servicios que estan siempre a tu disposicion. Ofrecemos:</p>
+                <dl>
+                    <dt>Montage y configuraciones</dt>
+                    <dd>Nuestros expertos realizarán por ti la configuración inicial que necesites o montarán tu ordenador por piezas.</dd>
+
+                    <dt>Servicios de protección</dt>                    
+                    <dd>Con nuestros nuevos seguros <u><strong><q>Garantía</q></u></strong> cubriremos un plazo más amplio, y con los seguros de <u><strong><q>Protección</q></u></strong> cubriremos los posibles daños accidentales.</dd>
+                    
+                    <dt>Reparaciones</dt>
+                    <dd>Para cualquier problema siempre hay una solución. Desde una avería en garantía legal hasta una sustitución de pantalla de móvil o sustitución de batería e incluso reparar tu ordenador o portátil.</dd>
+
+                    <dt>Asistente personal</dt>
+                    <dd>Nuestro equipo está a tu disposición para resolver tus consultas y prestarte el apoyo que necesitas, ademas podrás resolver tus dudas en persona o por videoconferencia con uno de nuestros expertos.</dd>
+                </dl>
+
+            </article>
+
+            <article id="articulo4">
+                <h2>Marcas con las que trabajamos</h2>
+                <div class="contenedor">
+                   <a href="https://www.asus.com/"><img class="asus" src="logo asus.png"></a>
+                   <a href="https://www.corsair.com/es/es"><img class="corsair" src="logo corsair.png"></a>
+                   <a href="https://www.samsung.com/es/"><img class="samsung" src="logo samsung.png"></a>
+                   <a href="https://www.intel.com/content/www/us/en/homepage.html"><img class="intel" src="logo intel.png"></a>
+                </div>
+            </article>
+        </main>
+
+        <footer>
+            <p>
+                <img src="Foto tienda.png" style="width: 20px; height: 20px;">
+                Sistemas Microinformáticos y Redes|Aplicaciones Web
+            </p>
+            <p>
+                👨‍💻 Jorge Regueira Ruibal 
+            </p>
+            <p>
+                <img src="github-icon.png" style="width: 20px; height: 20px;">
+                <a href="https://github.com/jreguruib/jreguruib.github.io" target="_blank">Mi GitHub</a>
+            </p>
+        </footer>
+        
+    </body>
+</html>

@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Pc Global</title>
+        <link rel="icon" href="Foto tienda.png">
+        <style>
+            body {
+                margin: 0;
+                padding: 0;
+                font-family: Arial, sans-serif;
+            }
+
+            header {
+                position: relative;
+                background-image: url('FotoTienda.jpg');
+                background-size: cover;
+                background-position: center;
+                height: 400px;
+                text-align: center;
+            }
+            
+            h1 {
+                color: black;
+                padding-top: 160px;
+                margin: 0;
+            }
+
+            nav {
+                background-color: black;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                padding: 10px 0;
+            }
+
+            nav ul li {
+                display: inline;
+                margin: 0 20px;
+            }
+
+            nav ul li a {
+                text-decoration: none;
+                color: white;
+                font-weight: 900;
+            }
+
+            .actual a {
+                font-weight: bold;
+                color: blue;
+            }
+
+            div {
+                display: block;
+                margin: 0 auto;
+                text-align: center;
+            }
+
+            footer {
+                background-color: #515151;
+                margin-top: 300px;
+                color: black;
+                padding: 10px 0;
+                bottom: 0;
+            }
+
+            form {
+                margin: 0 auto;
+                width: 400px;
+                padding: 1em;
+                border: 1px solid #ccc;
+                border-radius: 1em;
+            }
+
+            form li + li {
+                margin-top: 1em;
+            }
+
+            label {
+                display: inline-block;
+                width: 90px;
+                text-align: right;
+            }
+
+            input,textarea {
+                font: 1em sans-serif;
+                width: 300px;
+                box-sizing: border-box;
+                border: 1px solid #999;
+            }
+
+            textarea {
+                vertical-align: top;
+                height: 5em;
+            }
+
+            ul {
+                list-style: none;
+                padding: 0;
+            }
+
+            input[type="submit"] {
+                background-color: #007bff;
+                color: #fff;
+                padding: 10px 20px;
+                border: none;
+                cursor: pointer;
+            }
+
+            input[type="submit"]:hover {
+                background-color: #0056b3;
+            }
+        </style>
+    </head>
+
+    <body>
+        <header>
+            <h1><u>Pc Global</u><br>Componentes y Equipos Informáticos</h1>
+            <nav>
+                <ul>
+                    <li><a href="Index.html">Home</a></li>
+                    <li><a href="gallery.html">Galería</a></li>
+                    <li class="actual"><a href="ubi.html">Ubicación</a></li>
+                    <li><a href="contact.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+      
+        <div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2945.0609497325995!2d-8.63942535327498!3d42.42643752314177!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd2f71b61d62efcb%3A0xa4fca8c36b3fd17!2sPONTESAT!5e0!3m2!1ses!2ses!4v1700997643533!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <form action="enviar" method="post">
+            <ul>
+              <li>
+                <label for="nombre">Nombre:</label>
+                <input type="texto" id="name" name="user_name" />
+              </li>
+              <li>
+                <label for="nombre">Apellidos:</label>
+                <input type="texto" id="nombre" name="nombre" />
+              </li>
+              <li>
+                <label for="nombre">Numero de Telefono:</label>
+                <input type="texto" id="nombre" name="nombre" />
+              </li>
+              <li>
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" />
+              </li>
+              <li>
+                <label for="email">Direccion:</label>
+                <input type="email" id="email" name="email" />
+              </li>
+              <li>
+                <label for="email">Codigo Postal:</label>
+                <input type="email" id="email" name="email" />
+              </li>
+              <li>
+                <label for="email">Metodo de Pago:</label>
+                <input type="email" id="email" name="email" />
+              </li>
+              <li>
+                <label for="msg">Comentarios:</label>
+                <textarea id="msg" name="msg"></textarea>
+              </li>
+            </ul>
+            <input type="submit" value="Enviar">
+        </form>
+
+        <footer>
+            <p>
+                <img src="Foto tienda.png" style="width: 20px; height: 20px;">
+                Sistemas Microinformáticos y Redes|Aplicaciones Web
+            </p>
+            <p>
+                👨‍💻 Jorge Regueira Ruibal 
+            </p>
+            <p>
+                <img src="github-icon.png" style="width: 20px; height: 20px;">
+                <a href="https://github.com/jreguruib/jreguruib.github.io" target="_blank">Mi GitHub</a>
+            </p>
+        </footer>
+        
+    </body>
+</html>
